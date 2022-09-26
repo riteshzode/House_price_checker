@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import datetime
 
+# http://myhttpheader.com/
+# get to the above website and get your header parmeters like User-Agent and Accept-Language (important)
+
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9"
